@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+/*Boot CSS**/
+
+.center{
+	max-width: 1280px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+
+.w20{
+	width: 20%;
+}
+
+.w33{
+	width: 33.3%;
+	padding: 0 10px;
+}
+
+.w50{
+	padding: 0 2%;
+	width: 50%;
+}
+
+.w30{
+	width: 30%;
+}
+
+.w70{
+	width: 70%;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear{clear:  both;}
+
+.text-center{ text-align: center; }
+
+/**Estilizacao do sit**/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a3033; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2a3033; 
+}
+
+html,body{
+	height: 100%;
+}
+
+body{
+	background: #393f43;
+}
+
+.container{
+	max-width: 1280px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+
+header{
+	background: #008aff;
+	padding: 15px 0;
+}
+
+.logo a{
+	float: left;
+	color: white;
+	font-size: 40px;
+	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: -0.5mm;
+}
+
+nav.desktop{
+	float: right;
+}
+
+nav.desktop ul{
+	list-style-type: none;
+}
+
+nav.desktop ul li{
+	font-weight: 700;
+	font-size: 15px;
+	padding: 0 15px;
+	text-transform: uppercase;
+	display: inline-block;
+	letter-spacing: -0.3mm;
+	margin-top: 16px;
+}
+
+nav.desktop ul li a{
+	text-decoration: none;
+	color: white;
+	letter-spacing: -0.2mm;
+}
+
+nav.desktop a:hover{
+	text-decoration: underline;
+}
+
+section.search1{
+	background: #008aff;
+	padding: 20px 0;
+	text-align: center;
+}
+
+section.search1 input[type=text]{
+	height: 45px;
+	color: #000712;
+	padding-left: 17px;
+	border-radius: 15px;
+	width: 79%;
+	font-weight: 400;
+	font-size: 17px;
+	margin-top: 8px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+section.search2{
+	background-image: linear-gradient(to bottom, #008aff, #393f43);
+	text-align: center;
+	padding: 30px 0;
+}
+
+.form-group label{
+	display: block;
+	font-weight: 600;
+	font-size: 15px;
+	letter-spacing: -0.1mm;
+	color: white;
+	
+}
+
+.form-group input[type=text],
+.form-group input[type=number]{
+	height: 45px;
+	color: #000712;
+	padding-left: 17px;
+	border-radius: 15px;
+	width: 63%;
+	font-weight: 400;
+	font-size: 17px;
+	margin-top: 8px;
+	border: 1px solid #ccc;
+	outline: none;
+	margin-bottom: 10px;
+}
+
+section.lista-imoveis{
+	padding: 90px 0;
+}
+
+section.lista-imoveis .row-imoveis{
+	display: flex;
+	background: #eee;
+	border-radius: 20px;
+	margin-bottom: 40px;
+}
+
+.r1{width: 40%;}
+.r1 img{max-width: 100%;display: block;}
+.r2{width: 60%;}
+
+.r2{
+	padding: 30px;
+	color: #393f43;
+	font-size: 16px;
+}
+
+.r2 p{
+	border-bottom: 1px solid #393f43;
+	padding: 8px 0;
+}
+
+.title-busca{
+	border-bottom: 2px solid #eee;
+	font-size: 12px;
+	font-weight: normal;
+	color: #eee;
+	margin-bottom: 30px;
+}
+
