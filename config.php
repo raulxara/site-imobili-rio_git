@@ -18,10 +18,10 @@
 	define('BASE_DIR_PAINEL',__DIR__.'/painel');
 
 	//conectar com banco de dados
-	define('HOST','localhost');
-	define('USER','root');
+	define('HOST','');
+	define('USER','');
 	define('PASSWORD','');
-	define('DATABASE','projeto_01');
+	define('DATABASE','');
 
 	define('NOME_EMPRESA','Imobig');
 
